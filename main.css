@@ -1,0 +1,438 @@
+@font-face {
+    src: url(./ethnocentric_bd-webfont.woff);
+    font-family: 'Ethnocentric';
+}
+
+body, html
+{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0;
+    top: 0;
+}
+
+html 
+{
+    background: rgb(0, 2, 109);
+}
+
+body
+{
+    display: grid;
+    grid-template-rows: 1fr 11fr 5em;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.nav
+{
+    background: linear-gradient(45deg, rgb(0, 2, 109), rgb(0, 45, 82) 70%);
+    /* background: #FBAB1A; */
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    padding: 2em;
+}
+
+.nav *
+{
+    display: block;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav a
+{
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.nav *:hover
+{
+    color: #fbab1a;
+}
+
+#header {
+    color: #00026d;
+}
+
+hr
+{
+    border: 1px solid rgb(0, 2, 109);
+}
+
+.foot
+{
+    background: linear-gradient(45deg, rgb(0, 2, 109), rgb(0, 45, 82) 70%);
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.foot *
+{
+    text-align: center;
+    align-self: center;
+    color: white;
+}
+
+.foot p a {
+    text-align: left;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.trey 
+{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: block;
+}
+
+.side-bar
+{
+    background: rgb(9, 9, 29);
+    background: linear-gradient(0deg, rgb(102, 0, 63), rgb(9, 9, 29) 70%);
+}
+
+.container
+{
+    grid-row: 2 / 3;
+    padding: 1em;
+    background: #eeeeee;
+    /* background: rgb(217, 225, 235); */
+}
+
+.sponsor-lists
+{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+    border: none;
+}
+
+.side-bar
+{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.side-bar figure
+{
+    margin: 1em;
+    font-size: 2em;
+    text-align: center;
+    align-self: center;
+    color: white;
+    font-family: 'Ethnocentric';
+}
+
+.footer-logo
+{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.social
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.social figure
+{
+    margin: 0;
+}
+
+.social figure img
+{
+    width: 25%;
+}
+
+.social figure img:hover
+{
+    animation-name: breath;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.table
+{
+    width: 100%;
+    border: none;
+    border-radius: 0.5em;
+    border-spacing: 0px;
+    background: rgb(9, 9, 29);
+    background: linear-gradient(45deg, rgb(0, 2, 109), rgb(0, 45, 82) 70%);
+    color: white;
+    padding: 0.5em;
+}
+
+.table td
+{
+    text-align: center;
+    padding: 0.6em;
+    border: none;
+    width: 33%;
+}
+
+.table th
+{
+    border: 1px rgb(255, 255, 255) solid;
+    text-align: center;
+    padding: 0.9em;
+    border: none;
+    width: 33%;
+}
+
+.clothing
+{
+    width: 100px;
+}
+
+a
+{
+    color: rgb(0, 40, 151);
+    font-style: italic;
+    font-weight: bold;
+}
+
+#updates,#yearbooks
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.update
+{
+    /* background: #0000000e; */
+    background: linear-gradient(45deg, #0000000e, #0000000b 70%);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 0.7em;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 0.5em;
+    text-align: center;
+}
+
+.update div 
+{
+    align-self: center;
+}
+
+.update h3
+{
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+.update h4
+{
+    margin: 0;
+}
+
+.thumbnail 
+{
+    width: 100%;
+    align-self: center;
+    border-radius: 0.6em;
+}
+
+.view-container 
+{
+    width: calc(100% - 2em);
+    height: calc(100% - 2em);
+    margin: 1em;
+    z-index: 1;
+    position: absolute;
+    background: #333333;
+    border-radius: 0.7em;
+    overflow-y: scroll;
+}
+
+.close
+{    
+    background: white;
+    border: none;
+    border-radius: 1em;
+    height: 2em;
+    width: 2em;
+    text-align: center;
+    color: black;
+    float: right;
+    margin: 1em;
+    padding: 0px;
+    position: sticky;
+}
+
+#document-view 
+{
+    clear: both;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    height: 90%;
+    padding-bottom: 1em;
+    border: none;
+}
+
+.view-container::-webkit-scrollbar 
+{
+    width: 0px;
+    background: transparent;
+}
+
+.view-container::-webkit-scrollbar-thumb {
+    background: #ffffff;
+}
+
+.sponsor-specific {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+
+.sponsor-lists a {
+    font-style: normal;
+}
+
+.sponsor-lists h3 {
+    margin-bottom: 0.5em;
+    margin-top: 1.5em;
+}
+
+.sponsor-lists h3:first-child {
+    margin-bottom: 0.5em;
+    margin-top: 0;
+}
+
+.sponsor-specific div {
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 0.7em;
+    background: linear-gradient(45deg, #0000000e, #0000000b 70%);
+}
+
+.sponsor-specific div:nth-child(2) {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.sponsor-specific div * {
+    margin: 0.5em auto;
+    text-align: center;
+    align-self: center;
+}
+
+.sponsor-specific div img {
+    border-radius: 0.7em;
+    width: 100%;
+    max-width: 400px;
+}
+
+.sponsor-type {
+    font-size: 0.7em;
+    margin-top: 0.3em;
+}
+
+@keyframes slides
+{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+@keyframes breath
+{
+    0%{transform: scale(1);}
+    50%{transform: scale(1.2);}
+    100%{transform: scale(1);}
+}
+
+@media(max-width: 899px)
+{
+    .sponsor-lists
+    {
+        border: none;
+        margin: 0;
+    }
+}
+
+@media(max-width: 900px)
+{
+    .nav
+    {
+        grid-template-columns: repeat(6, 1fr);
+        grid-row-gap: 0.25em;
+    }
+    .nav :not(:first-child):not(:last-child)
+    {
+        display: none;
+    }
+    .nav :first-child
+    {
+        grid-column: 3 / 4;
+    }
+    .nav :last-child
+    {
+        grid-column: 4 / 5;
+    }
+    .side-bar
+    {
+        display: none;
+    }
+    body
+    {
+        grid-template-columns: none;
+    }
+    #updates,#yearbooks
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .foot 
+    {
+        grid-template-columns: 3fr 4fr;
+    }
+    .social figure img
+    {
+        width: 60%;
+    }
+}
+
+@media(max-width: 660px) 
+{
+    #updates,#yearbooks
+    {
+        display: grid;
+        grid-template-columns: none;
+    }
+    .sponsor-specific {
+        display: grid;
+        grid-template-columns: none;
+    }
+}
+
+@media(min-width: 1025px) 
+{
+    #updates,#yearbooks
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(min-width: 900px)
+{
+    .nav :last-child
+    {
+        display: none;
+    }
+}

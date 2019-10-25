@@ -1,0 +1,280 @@
+[
+    {
+        "title": "Home",
+        "header": "Victor Robotics - Home",
+        "articles": [
+            {
+                "sub-title": "Upcoming Events",
+                "sub-content": "%createTable('events.json')%"
+            },
+            {
+                "sub-title": "About Us",
+                "sub-content": "Team 1559, Devil Tech, was founded by Peter Fleckenstein and a group of passionate students in 2004. We are a FIRST robotics team located in Victor, New York, that focuses on student growth and development. We strive to promote STEM ideals along with FIRST's core ideas of gracious professionalism inside of our community and school district empowering today's students to be tomorrow's innovators, engineers, and business men / women. Victor Robotics is, in general, the collection of all the FIRST teams out of the Victor Central School system. We offer Jr. FLL, FLL, FTC, and FRC programs for a wide age range of students. We always looking to inspire more and more students and mentors to join the FIRST community to help us spread awareness of STEAM and to better the future of each student involved."
+            },
+            {
+                "sub-title": "FRC Photos from the 2018-2019 Season",
+                "sub-content": "<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vRf2vW5hNp-HycqUyMU6oAZ6nF47Vertsb3ihHSG6XKhqXdv59gsAX81FTc8shaddIt4U2ejqgRqu8r/embed?start=true&loop=true&delayms=3000\" frameborder=\"0\" width=\"100%\" height=\"400\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>"
+            },
+            {
+                "sub-title": "Support Us",
+                "sub-content": "There are many ways that someone can contribute to the team. For example we always are very greatful to new sponsors, and we are always looking for new mentors and students to join the team. Another great way to support us is through donating to our FRC, FLL, FJLL programs."
+            },
+            {
+                "sub-title": "Team Resources",
+                "sub-content": "We have prepared a list of resources that range from helping build the robot to links to Victor's other FIRST programs. To view the list simply select 'Resources' from the navigation bar found at the top of this page."
+            },
+            {
+                "sub-title": "Weekly Updates",
+                "sub-content": "Every week following kickoff until the end of the school year, we provide weekly updates so that parents and sponsors can see how much we have and are working to accomplish. To view weekly updates select 'Updates' from the navigation bar."
+            },
+            {
+                "sub-title": "Team Trey",
+                "sub-content": "FRC Team 1559 is also known as Team Trey, in honor of Trey Butler. Trey Butler was a member of Team 1559 who has unfortunately passed away from MLD. Help us, as we honor him, by donating to the MLD foundation today. And as always any amount donated is greatly appreciated."
+            }
+        ]
+    },
+    {
+        "title": "Updates",
+        "header": "Publications",
+        "articles": [
+            {
+                "sub-title": "",
+                "sub-content": "%eventPlacer('updates.json')%"
+            }
+        ]
+    },
+    {
+        "title": "Calendar",
+        "header": "Calendar & Upcoming Events",
+        "articles": [
+            {
+                "sub-title": "Upcoming Events",
+                "sub-content": "%createTable('events.json')%"
+            },
+            {
+                "sub-title": "Calendar",
+                "sub-content": "<iframe width='100%' height='400px' src='https://calendar.google.com/calendar/embed?src=lhi9s6vqmktdt5ht71hq5v7omg%40group.calendar.google.com&ctz=America%2FNew_York'>Loading Google Calendars...</iframe>"
+            }
+        ]
+    },
+    {
+        "title": "Support",
+        "header": "Support Us",
+        "articles": [
+            {
+                "sub-title": "",
+                "sub-content": "We greatly appreciate any donations or support of any kind!"
+            },
+            {
+                "sub-title": "Donate",
+                "sub-content": "All donations go towards the funding of our FRC, FLL, FTC, and FJLL programs.<br><br>Make checks payable to Rochester Community Robotics (Team 1559).<br>Mail to: Victor High School<br>Aten: Pete Fleckenstein - Robotics Faculty Advisor<br>953 High Street<br>Victor New York, 14564"
+            },
+            {
+                "sub-title": "Join the Team",
+                "sub-content": "Victor Robotics is always looking for new mentors and students to help our teams grow, we always look forward to getting new members!<br>Click <a href='javascript:location.href=`?page=contact`'>here</a> to contact us about becoming a member."
+            },
+            {
+                "sub-title": "Sponsors",
+                "sub-content": "We love our sponsors! Teams like ours could not exist with the people, families, companies, and organzations like them!<br>Click <a href='javascript:location.href=`?page=sponsors`'>here</a> to see a full list of our sponsors."
+            }
+        ]
+    },
+    {
+        "title": "Resources",
+        "header": "Team Resources",
+        "articles": [
+            {
+                "sub-title": "Links",
+                "sub-content": "<a href='https://www.chiefdelphi.com/forums/index.php'>Chief Delphi Forums</a>"
+            },
+            {
+                "sub-title": "",
+                "sub-content": "<a href='https://www.thebluealliance.com/'>The Blue Alliance</a>"
+            },
+            {
+                "sub-title": "",
+                "sub-content": "<a href='https://www.firstinspires.org/robotics/frc/blog/'>FRC Blog</a>"
+            },
+            {
+                "sub-title": "",
+                "sub-content": "<a href='http://victorpie.org/victor-first-lego-league/'>FIRST Lego League Club</a>"
+            },
+            {
+                "sub-title": "",
+                "sub-content": "<a href='http://victorpie.org/jr-first-lego-league-registration-is-open/'>Jr. FIRST Lego League Club</a>"
+            },
+            {
+                "sub-title": "",
+                "sub-content": "<a href='https://www.youtube.com/user/FIRSTWorldTube'>FIRST YouTube Channel</a>"
+            },
+            {
+                "sub-title": "",
+                "sub-content": "<a href='http://www.firstnemo.org/'>FIRST N.E.M.O</a>"
+            },
+            {
+                "sub-title": "",
+                "sub-content": "<a href='http://www.robotin3days.com/'>Robot in Three Days</a>"
+            },
+            {
+                "sub-title": "Downloadables",
+                "sub-content": "Sorry, we have no downloadables available at this time please check back later."
+            }
+        ]
+    },
+    {
+        "title": "Trey",
+        "header": "We are Team Trey",
+        "articles": [
+            {
+                "sub-title": "Team Trey",
+                "sub-content": "Trey Butler was a member of Team 1559 from 2011 to 2015 and was planning to attend Rochester Institute of Technology as a mechanical engineer until he was diagnosed with Metachromatic Leukodystrophy, MLD, and passed away March 12th, 2016. His legacy will live on in the hearts and minds of Team 1559, Victor Central Schools, and his loved ones. Click <a href='https://www.team1559.mldfoundation.org/'>here</a> to find out more about the MLD Foundation and how to raise money for awareness. And click <a href='https://www.youtube.com/watch?v=nK7w4KX00VM'>here</a> to see our team's video about Trey to spread MLD awareness."
+            },
+            {
+                "sub-title": "",
+                "sub-content": "<img class='trey' src='images/trey.jpg'>"
+            }
+        ]
+    },
+    {
+        "title": "Sponsors",
+        "header": "",
+        "articles": [
+            {
+                "sub-title": "",
+                "sub-content": "%sponsors('sponsors.json')%"
+            }
+        ]
+    },
+    {
+        "title": "Sponsor",
+        "header": "",
+        "articles": [
+            {
+                "sub-title": "Sponsor Website",
+                "sub-content": ""
+            }
+        ]
+    },
+    {
+        "title": "New Students",
+        "header": "Welcome to FRC",
+        "articles": [
+            {
+                "sub-title": "Recruiting all STEAM students!",
+                "sub-content": "We are so excited to get started with a new season. Listed below you can find information about some of the different skill sets we are looking for in new team members, also robotics isn't just about engineering. We have an awesome business side to things as well, if you are interested in business you can get some awesome real world experience with fundraising, marketing, etc. Also on the business side we are looking for people interested in graphic design so that we can create some awesome logos and apparel. Even if you don't have experience with any of the fields listed below we would be happy to get you started. We have a ton of mentors with professional experience to help you along the way. Feel free to browse through the other pages on this website to learn more and be sure to attend the student interest meeting!"
+            },
+            {
+                "sub-title": "3D Printing",
+                "sub-content": " If you’re interested in seeing how a 3D model can come to life and how modern parts and prototypes are made, the 3D printing team needs you! Learn how to use these incredible machines and how to design parts specifically for Additive Manufacturing, a technology being increasingly adopted in industry today.  "
+            },
+            {
+                "sub-title": "Animation",
+                "sub-content": " Are you über-creative and interested in making awesome animations for our team videos? We need your help! Safety videos can help us win awards and robot videos help promote our team and capabilities.  Channel that skill and make us look cool!  "
+            },
+            {
+                "sub-title": "Awards",
+                "sub-content": " Winning awards at regional competitions gives our team credibility and solidifies our reputation as first-rate. If you’re a positive person who can understand what it takes to win, can rally your teammates and are a great writer or presenter, the awards team needs you! "
+            },
+            {
+                "sub-title": "CAD",
+                "sub-content": " Can you visualize objects in three dimensions? Are you interested in creating the drawings that will be used to get actual robot parts manufactured? You can make concepts tangible using professional Computer-Aided Design (CAD) software. Learning CAD is an invaluable skill that will be tremendously useful throughout your engineering education and potentially your future career."
+            },
+            {
+                "sub-title": "Community Outreach",
+                "sub-content": " Team 1559 does more than just build robots, we also volunteer in our local community. Want to do some good beyond the team? Support our community outreach programs. Not only does it help promote our team, you’ll feel good about assisting people and programs in need (it’s also a fantastic addition to your college application)."
+            },
+            {
+                "sub-title": "Electrical",
+                "sub-content": " Robots don’t move unless electrons get to the right place. Come learn about how robots get their power, how cool sensors work and how to connect, crimp and solder our way to a first-class robot.   This team helps bridge the gap between software and hardware. If you’re thinking about pursuing an Electrical Engineering degree someday, you’ll positively want to check this team out."
+            },
+            {
+                "sub-title": " Field Parts",
+                "sub-content": " How does our team prepare for events when the game changes every year? The Field Parts team makes it happen! They build replicas of the game environment so that our drivers can practice navigating the robot through it. If Wood Shop has a special place in your heart, or you get a sense of satisfaction when you successfully assemble furniture with your parents, come help the Field Parts team!"
+            },
+            {
+                "sub-title": "Fund Raising",
+                "sub-content": " Building a robot and competing at the highest level requires a large budget. Team 1559 organizes several fundraisers each year, in addition to seeking financial support from our highly-valued sponsors.  If you like to organize events and want to be an ambassador for the team, working on the fundraising team can be very rewarding."
+            },
+            {
+                "sub-title": "Game Strategy",
+                "sub-content": " Are you analytical? Do you enjoy playing strategy games, and thrive on optimization? We need your help devising a successful game strategy. You’ll work with the engineering team making sure that the robot design maximizes our potential to be successful at regional competitions."
+            },
+            {
+                "sub-title": "Graphic Design",
+                "sub-content": " Are you an aspiring artist who also thinks robots are cool? Join the Graphic Design team and help create the artistic content that will go on our team apparel, posters, promotional material and website. Make your mark on the team with an image you designed! "
+            },
+            {
+                "sub-title": "Manufacturing",
+                "sub-content": " This team is responsible for fabricating the robot parts that the Mechanical Design team conceptualized, according to the specifications that the CAD team drew up. It all comes full-circle! If you have experience with or are interested in learning how to use machine tools (mills, lathes, saws, drills, etc.) you’ll get the opportunity to cut steel (or aluminum) and make the robot a reality.  "
+            },
+            {
+                "sub-title": "Marketing/Promotion",
+                "sub-content": " Thinking of a career in advertising? Combine your creativity and communication skills to promote our team! Whether it’s developing a consistent brand, designing promotional materials for our events or creating content that will attract other teams and judges to our pit at competitions, there’s plenty of ways you can don your Sales hat and help the team!"
+            },
+            {
+                "sub-title": "Mechanical Design",
+                "sub-content": " If you’re considering a career in Mechanical Engineering, join this project team and help design mechanical components for the robot. You’ll learn how to design a solid chassis, how a drivetrain works, how to select appropriate gears, linkages and other mechanical components that will enable the robot to move, shoot, climb, catch, grab and anything in between."
+            },
+            {
+                "sub-title": "Media/Photography/Video Production",
+                "sub-content": " If you enjoy or are interested in photography and/or videography, use those talents to create content for all our outreach mediums – website, sponsor books, social media, printed promotional materials, presentations, pit videos, etc. Help spread the word about what Team 1559 is up to with the photos and video you capture!"
+            },
+            {
+                "sub-title": "Robot Design",
+                "sub-content": " If you’re an inventor and machines fascinate you, be responsible for the overall design of the robot subsystems. You will rise to the challenge of designing the mechanisms that make the robot accomplish its game-driven goals. Apply your knowledge of engineering and collaborate with other subject matter experts to come up with solutions that give the robot the best chance of winning!"
+            },
+            {
+                "sub-title": "Robot Assembly",
+                "sub-content": " If LEGO is/was a major influence in your life, you will love being a part of robot assembly. Ensure that all the parts and pieces fit to the design specifications and help come up with ways to make the design more robust. We can’t be competitive unless the robot is solidly assembled."
+            },
+            {
+                "sub-title": "Safety",
+                "sub-content": " FIRST and Team 1559 take safety seriously and designate a captain for this job every year. Learn about what keeps a workplace safe, and help your peers stick to those guidelines. You will even help make a fun safety video that can help with us awards at regionals!"
+            },
+            {
+                "sub-title": "Scouting",
+                "sub-content": " Selecting and being selected for top alliances are key to winning regional competitions. Learn how to assess the capabilities of other robots and how they will compliment and/or augment our own robot’s proficiencies. This also involves promoting our own robot to other competitive teams. Combine your strategic, analytical, sales and marketing skills to excel in this important job. "
+            },
+            {
+                "sub-title": "Software/Programming",
+                "sub-content": " Can you think like a machine and teach a robot how to win a game? If you have experience in computer programming or are interesting in coding, join the software/programming team to design the algorithms that make our robot drive and score in both tele-operated and autonomous modes. Learn how to drive motors, control actuators and use sensors and cameras to navigate our way to a high score! "
+            },
+            {
+                "sub-title": "Systems Integration",
+                "sub-content": " Get a sense of satisfaction when a good plan comes together? If you demonstrate a desire to understand how all robot systems work and are ready to help coordinate a big engineering project, Systems Integration is for you. This important team will proactively work with all the engineering design teams (Robot design, electrical, software) and sub-systems to ensure that the robot is working as expected every step of the way through the build season.  "
+            },
+            {
+                "sub-title": "Team Operations",
+                "sub-content": " Encompasses how the Team operates a whole. Beyond creating a robot, Team Operations ensures that we have the finances and organization necessary to have a successful season."
+            },
+            {
+                "sub-title": "Team Spirit",
+                "sub-content": " Do you have incredible school spirit? Are pep rallies your favorite? Are you ridiculously excited and proud of your robotics team? Spread that enthusiasm by being our Team Sprit captain. It’s more than just cheering in the stands – come up with your own ways of getting everyone fired up and participating every day we meet! You’ll ensure that everyone on the team is as proud and excited as you are!"
+            },
+            {
+                "sub-title": "Travel Planning",
+                "sub-content": " Team 1559 competes at regionals outside of the Rochester area, and those trips require thoughtful organization. See what it takes to get the entire team to a different place, and you’ll learn invaluable logistics skills – planning, scheduling, booking, financing. It’s a carefully orchestrated affair we need your help with."
+            },
+            {
+                "sub-title": "Treasurer",
+                "sub-content": " Think you know how to manage money? Balance a budget? Predict expenses? Then consider becoming our team treasurer where you’ll learn how to be responsible for the team’s finances. This is invaluable experience if you one day would like to run a business."
+            },
+            {
+                "sub-title": "Web Design",
+                "sub-content": " Do you design or run your own website in your spare time and want to help us make ours even better? Are you interested in web design and have some creative ideas? Please consider joining our web design team! You’ll get to add your spin to the front page of our team and ensure a great online user experience by keeping our online calendar updated, sharing our team’s latest news and making it easy to order Devil-Tech apparel."
+            },
+            {
+                "sub-title": "Drive Team",
+                "sub-content": " If you’re chosen for this team, you’ll get to be on the field during competitions as either pilot/co-pilot, human player or technician.  Are you an RC car and video game wiz who can visualize spaces in three dimensions? If you’re a great multi-tasker, robot systems expert, cunning strategist and above-all, a team player who thrives under pressure and can think on their toes, try out for the drive team and be a part of the action!"
+            },
+            {
+                "sub-title": "Internal/External Communication",
+                "sub-content": " Good communication is the lifeblood of any successful organization. If you’re a great writer, we need you to spread the word about what Team 1559 is up to. Whether it’s the team at large, the school, parents, sponsors or the community, we need people to know about what we’re doing and how great this team is. You can help coordinate everyone with pertinent news, upcoming events and major deadlines."
+            },
+            {
+                "sub-title": "Pit Crew",
+                "sub-content": " At every competition a select number for subject matter experts are chosen to be a part of the Pit Crew. These students will help setup the pit, set up the robot, troubleshoot issues during competitions and make the appropriate repairs and adjustments in the pit. All disciplines are represented, and you need to demonstrate a proficiency in your sub-system and an ability to work under pressure. Be a part of the excitement at competition and ensure that our robot is always operating at peak performance."
+            }
+        ]
+    }
+]

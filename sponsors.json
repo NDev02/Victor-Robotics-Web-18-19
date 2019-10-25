@@ -1,0 +1,214 @@
+{
+    "Einstein $5,000+": [
+        {
+            "name": "GM",
+            "logo": "https://www.gm.com/etc/designs/gbs/components/topbar/img/gmcom/gm_logo.jpg",
+            "website": "https://www.gm.com/"
+        },
+        {
+            "name": "Xerox",
+            "logo": "https://www.xerox.com/assets/css/banners/4.13.90/files/images/xerox_logo_r.svg",
+            "website": "https://www.xerox.com/https://www.xerox.com/"
+        },
+        {
+            "name": "Victor Central School District",
+            "logo": "https://resources.finalsite.net/images/v1524123231/victorschoolsorg/ujzz8cosgbkajcgwqdlu/VictorDistrictLogo.svg",
+            "website": "https://www.victorschools.org/"
+        }
+    ],
+    "Edison $1,000+": [
+        {
+            "name": "C & R Vision Center",
+            "logo": "na",
+            "website": "https://visionsource-candrvision.com/"
+        },
+        {
+            "name": "Exton Family",
+            "logo": "na",
+            "website": "na"
+        },
+        {
+            "name": "Mae Tec Power",
+            "logo": "http://www.maetecpower.com/media/1031/maeteclogo400x150.png",
+            "website": "http://www.maetecpower.com/"
+        },
+        {
+            "name": "Monag Apparel",
+            "logo": "https://monag.com/pub/media/logo/stores/1/monag-header.pnghttps://monag.com/pub/media/logo/stores/1/monag-header.png",
+            "website": "https://monag.com/"
+        },
+        {
+            "name": "ONeil/Allen Family",
+            "logo": "na",
+            "website": "na"
+        },
+        {
+            "name": "Partners In Education (PIE)",
+            "logo": "http://victorpie.org/wp-content/uploads/2015/11/PIE-Logo-Sq-300-150x150.png",
+            "website": "http://victorpie.org/"
+        },
+        {
+            "name": "Gorbel",
+            "logo": "https://www.gorbel.com/images/PublicSite/gorbelLogo.png",
+            "website": "https://www.gorbel.com/"
+        },
+        {
+            "name": "Ravenwood",
+            "logo": "https://www.ravenwoodgolf.com/images/logo/logo-web.png",
+            "website": "https://www.ravenwoodgolf.com/"
+        },
+        {
+            "name": "SEI Desgin",
+            "logo": "http://www.seidesigngroup.com/templates/sei/images/logo.png",
+            "website": "http://www.seidesigngroup.com/"
+        }
+    ],
+    "Galileo $500+": [
+        {
+            "name": "IEC Electronics Corp.",
+            "logo": "https://www.iec-electronics.com/Themes/IECTheme/Content/images/logo.png.pagespeed.ce.2txHFkHAdW.png",
+            "website": "https://www.iec-electronics.com/"
+        },
+        {
+            "name": "Integrated Systems",
+            "logo": "https://www.integratednet.com/wp-content/uploads/2016/04/Integrated_solutions_logo250.png",
+            "website": "https://www.integratednet.com"
+        },
+        {
+            "name": "Kiwanis Club of Farmington-Victor",
+            "logo": "http://www.farmington-victorkiwanis.com/images/Header.gif",
+            "website": "http://www.farmington-victorkiwanis.com/"
+        },
+        {
+            "name": "New Scale Technologies",
+            "logo": "https://www.newscaletech.com/wp-content/uploads/New-Scale-Technologies_Logo_RGB_smaller.png",
+            "website": "https://www.newscaletech.com/"
+        },
+        {
+            "name": "Pealer Family",
+            "logo": "na",
+            "website": "na"
+        },
+        {
+            "name": "Ulatowski Family",
+            "logo": "na",
+            "website": "na"
+        }
+    ],
+    "Curie $250+": [
+        {
+            "name": "Bloomfield Industrial Arts",
+            "logo": "https://s3.amazonaws.com/crowdspring3-production/project_entries/ca/cd21eb083ff84ec1a557743d5bce1c70.jpg",
+            "website": "http://www.bloomfieldindustrialarts.com/"
+        },
+        {
+            "name": "Arlene Reiser",
+            "logo": "na",
+            "website": "na"
+        },
+        {
+            "name": "Canandaigua National Bank & Trust (CNB)",
+            "logo": "https://www.cnbank.com/images/cnb_logo.png",
+            "website": "https://www.cnbank.com/"
+        },
+        {
+            "name": "Carlson Family",
+            "logo": "na",
+            "website": "na"
+        },
+        {
+            "name": "D3 Engineering",
+            "logo": "https://www.d3engineering.com/wp-content/uploads/sites/2/2018/08/D3Logo.png",
+            "website": "https://www.d3engineering.com/"
+        },
+        {
+            "name": "M/E Engineering, P.C.",
+            "logo": "https://www.meengineering.com/images/logo.png",
+            "website": "https://www.meengineering.com/"
+        },
+        {
+            "name": "Dr. Dawn Santiago-Marullo",
+            "logo": "na",
+            "website": "na"
+        },
+        {
+            "name": "Dr. Michael Spoon",
+            "logo": "http://spoonortho.com/wp-content/uploads/2015/04/Dr.-Spoon-Logo-1.jpg",
+            "website": "https://spoonortho.com/"
+        },
+        {
+            "name": "Toptica Photonics Inc",
+            "logo": "https://www.toptica.com/typo3conf/ext/toptica/Resources/Public/img/logos/logo_header_w200_1x.png",
+            "website": "https://www.toptica.com/"
+        }
+    ],
+    "Archimedes $100+": [
+        {
+            "name": "Albers, Judy",
+            "logo": "na",
+            "website": "na"
+        },
+        {
+            "name": "ALPCO Recycling Inc",
+            "logo": "http://alpcorecycling.com/wp-content/uploads/2018/04/logo.png",
+            "website": "http://alpcorecycling.com/"
+        },
+        {
+            "name": "Just Solutions",
+            "logo": "https://d2oc0ihd6a5bt.cloudfront.net/wp-content/uploads/sites/143/2018/01/logo-justsolutions-white-tagline_01.png",
+            "website": "https://www.justinc.com/"
+        },
+        {
+            "name": "Charles McFee",
+            "logo": "na",
+            "website": "na"
+        },
+        {
+            "name": "Villard Family",
+            "logo": "na",
+            "website": "na"
+        },
+        {
+            "name": "Baker Family",
+            "logo": "na",
+            "website": "na"
+        },
+        {
+            "name": "Merges Family",
+            "logo": "na",
+            "website": "na"
+        }
+    ],
+    "Newton $50+": [
+        {
+            "name": "Allen Johnson",
+            "logo": "na",
+            "website": "na"
+        },
+        {
+            "name": "George Bradon III",
+            "logo": "na",
+            "website": "na"
+        },
+        {
+            "name": "Hart Family",
+            "logo": "na",
+            "website": "na"
+        },
+        {
+            "name": "LaBella Assoc",
+            "logo": "https://static.wixstatic.com/media/79b8df_530bdb7c04c04c6a876a1776162cba5e~mv2.png/v1/fill/w_337,h_131,al_c,q_80,usm_0.66_1.00_0.01/79b8df_530bdb7c04c04c6a876a1776162cba5e~mv2.webp",
+            "website": "https://www.labellapc.com/"
+        },
+        {
+            "name": "Vincent Associates",
+            "logo": "https://www.uniblitz.com/wp-content/uploads/2019/01/va-site-logo.jpg",
+            "website": "https://www.uniblitz.com/"
+        },
+        {
+            "name": "The Hartle Family",
+            "logo": "na",
+            "website": "na"
+        }
+    ]
+}

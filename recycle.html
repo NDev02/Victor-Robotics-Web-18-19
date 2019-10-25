@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title id="title">Recycle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script>
+        function evalNavbar() {
+            var nav = document.querySelector(".nav");
+            var children = nav.children;
+            var active = nav.getAttribute("active");
+            var index = 0;
+            for (var child of children) {
+                if (active == "false" && index != 0 && index < children.length - 1) {
+                    nav.style.gridTemplateRows = `repeat(${children.length - 1 + 2}, 1fr)`;
+                    child.style.display = "block";
+                    child.style.gridColumn = "1 / 7";
+                    child.style.paddingTop = "0.25em";
+                    child.style.paddingBottom = "0.25em";
+                    child.style.gridRow = `${index + 3} / ${index + 4}`;
+                }
+                else if (active == "true" && index != 0 && index < children.length - 1) {
+                    child.removeAttribute("style");
+                    nav.removeAttribute("style");
+                }
+                index++;
+            }
+            if (active == "true") {
+                document.querySelector(".nav").setAttribute("active", "false");
+            }
+            else {
+                document.querySelector(".nav").setAttribute("active", "true");
+            }
+        }
+    </script>
+    <link rel="icon" href="images/icon.png">
+    <style>
+        .center {
+            text-align: center;
+        }
+
+        .card-holder-3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 0.5em;
+            padding: 1em 4em;
+            padding-bottom: 0.5em;
+        }
+
+        .card-holder-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 0.5em;
+            padding: 1em 4em;
+            padding-top: 0;
+        }
+
+        .card {
+            background: linear-gradient(45deg, #0000000e, #0000000b 70%);
+            padding: 1em;
+            border-radius: 0.7em;
+        }
+
+        .warning {
+            font-weight: bold;
+            display: block;
+            color: rgb(124, 0, 0);
+        }
+
+        @media(max-width: 1200px) {
+
+            .card-holder-2,
+            .card-holder-3 {
+                display: grid;
+                grid-template-columns: none;
+                padding: 1em 1em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav" active="false">
+        <a href="javascript:location = 'index.html?page=home'">Home</a>
+        <a href="javascript:location = 'index.html?page=calendar'">Calendar</a>
+        <a href="update.html">Publications</a>
+        <a href="javascript:location = 'index.html?page=support'">Support</a>
+        <a href="javascript:location = 'index.html?page=resources'">Resources</a>
+        <a href="javascript:location = 'index.html?page=trey'">Trey</a>
+        <a href="javascript:location = 'index.html?page=sponsors'">Sponsors</a>
+        <a> </a>
+        <a href="javascript:evalNavbar()" style="color: white">&#9776;</a>
+    </div>
+    <div class="container">
+        <h1 id="header">Victor Robotics - 2019 Recycle Drive</h1>
+        <hr>
+        <p class="center">Join us on Saturday April 6th, from 9am to 1pm for our annual recycle drive. We are
+            collecting deposit
+            bottles and
+            cans, electronics, scrap metal, appliances, ink cartridges, and much
+            more to support our local organizations and non-profits!</p>
+        <h2 class="center">This year Victor Robotics and FRC Team 1559 is collecting items for…</h2>
+        <div class="card-holder-3">
+            <div class="card">
+                <h2>Metalico Electronics</h1>
+                    <span class="warning">No TVs Please!</span>
+                    <ul>
+                        <li>Business Machines</li>
+                        <li>Cables & IT accessories</li>
+                        <li>Cameras</li>
+                        <li>Copiers</li>
+                        <li>Electronics Scrap</li>
+                        <li>Fax Machines</li>
+                        <li>Fluorescent Lamps</li>
+                        <li>Gaming devices</li>
+                        <li>GPS units</li>
+                        <li>Lab & medical electronics</li>
+                        <li>Laptops</li>
+                        <li>Mainframe/ Midrange</li>
+                        <li>Mobile devices (cell Phones, Tablets, PDAs, MP3 players)</li>
+                        <li>Monitors</li>
+                        <li>Networking Gear</li>
+                        <li>Phone systems</li>
+                        <li>Power supplies</li>
+                        <li>Scanners</li>
+                        <li>Scientific Equipment</li>
+                        <li>Security equipment</li>
+                        <li>Stereo equipment</li>
+                        <li>Telecommunications Equipment</li>
+                        <li>Terminals</li>
+                        <li>Typewriters</li>
+                        <li>UPS</li>
+                        <li>Video & audio equipment</li>
+                        <li>Wiring & Cabling</li>
+                    </ul>
+                    <h2>Imagine IT</h1>
+                        <ul>
+                            <li>Printer ink, toner, & cartridges</li>
+                        </ul>
+            </div>
+            <div class="card">
+                <h2>Metalico Metals and Appliances</h1>
+                    <ul>
+                        <li>Air Conditioners (Freon Drained)</li>
+                        <li>Aluminum Cans</li>
+                        <li>Aluminum Ladders</li>
+                        <li>Appliances (All Including Microwaves, Ovens, Stoves (Electric, Gas, Wood)</li>
+                        <li>Bathtubs (Cast Iron)</li>
+                        <li>BBQ Grills</li>
+                        <li>Blenders</li>
+                        <li>Chain Saws (Drained)</li>
+                        <li>Christmas Lights</li>
+                        <li>Coat Hangers (Steel)</li>
+                        <li>Dishwashers</li>
+                        <li>Dryers and Washing Machines</li>
+                        <li>Excercise Equiptment</li>
+                        <li>Extension Cords</li>
+                        <li>Fans</li>
+                        <li>Fire Extinguishers (With Holes Or Cut)</li>
+                        <li>Fireplace Grates, Doors (No Glass)</li>
+                        <li>Freezers (Freon Drained)</li>
+                        <li>Furnaces</li>
+                        <li>Hot Water Heaters</li>
+                        <li>Ladders (Aluminum, Steel)</li>
+                        <li>Lawn Mowers (Drained)</li>
+                        <li>Lawn Furniture – aluminum or other metal</li>
+                        <li>Leaf Blowers (Drained)</li>
+                        <li>Light Fixtures (With & W/Out Ballasts/Transformers)</li>
+                        <li>Plumbing Fixtures</li>
+                        <li>Pop and Soda Cans</li>
+                        <li>Pots And Pans</li>
+                        <li>Radiators (Auto, House)</li>
+                        <li>Refrigerators</li>
+                        <li>Screen Doors/Windows</li>
+                        <li>Silverware</li>
+                        <li>Sinks (Stainless, Cast Iron, Metal)</li>
+                        <li>Steel (All, Cabinets, Cans, Hangers, Beams, Etc.)</li>
+                        <li>Vacuum Cleaners</li>
+                        <li>Washing Machines/Dryers</li>
+                        <li>Water Heaters</li>
+                        <li>Weed Whackers</li>
+                    </ul>
+            </div>
+            <div class="card">
+                <h2>EWASTE+</h1>
+                    <ul>
+                        <li>Computers (including laptops, desktops, tablets and e-readers)</li>
+                        <li>Small scale servers</li>
+                        <li>Computer peripherals</li>
+                        <li>Monitors</li>
+                        <li>Electronic keyboards</li>
+                        <li>Electronic mice or similar</li>
+                        <li>pointing devices</li>
+                        <li>Fax machines</li>
+                        <li>document scanners</li>
+                        <li>and printers (less than 100 lbs.)</li>
+                        <li>Small electronic equipment</li>
+                        <li>VCRs</li>
+                        <li>Digital video recorders</li>
+                        <li>Portable digital music players</li>
+                        <li>DVD players (including projectors with DVD player capabilities intended for home-use)</li>
+                        <li>Digital converter boxes</li>
+                        <li>Cable or satellite receivers (including digital media receivers)</li>
+                        <li>Electronic or video game consoles</li>
+                    </ul>
+                    <h2>Veteran's Outreach</h1>
+                        <ul>
+                            <li>New bedding</li>
+                            <li>Personal hygiene items</li>
+                        </ul>
+                        <h2>Rochester Community Bikes</h1>
+                            <ul>
+                                <li>Bikes of all sizes</li>
+                                <li>Bikes for kids</li>
+                            </ul>
+            </div>
+        </div>
+        <div class="card-holder-2">
+            <div class="card">
+                <h2>Victor-Farmington Food Cupboard</h1>
+                    <ul>
+                        <li>Canned soups</li>
+                        <li>Tuna</li>
+                        <li>Peanut butter</li>
+                        <li>Canned fruit</li>
+                        <li>Spaghetti sauce</li>
+                        <li>Toilet paper</li>
+                        <li>Paper towels</li>
+                        <li>Bath soap</li>
+                        <li>Shampoo</li>
+                        <li>Conditioner</li>
+                    </ul>
+            </div>
+            <div class="card">
+                <h2>Victor-Farmington Library</h1>
+                    <ul>
+                        <li>New and gently used childrens books, preschool – 12th grade</li>
+                    </ul>
+                    <h2>Lollypop Farm</h1>
+                        <ul>
+                            <li>Kitten dry/wet food</li>
+                            <li>Puppy dry/wet food</li>
+                            <li>White paper towels</li>
+                        </ul>
+                        <h2>Bottle and Can Retrieval Centers</h1>
+                            <ul>
+                                <li>Any $.05 deposit bottles or cans welcome</li>
+                            </ul>
+            </div>
+        </div>
+        <h3 class="center">The event will be hosted at the auxillary lot on Victor Central Schools Campus</h3>
+        <div class="card" style="margin: 1em 1em">
+            <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=953+high+street+victor+new+york&amp;key=AIzaSyDVS35dINqqZbuyx8piwFXx_PD4HO3ynYg"
+                allowfullscreen=""></iframe>
+        </div>
+    </div>
+    </div>
+    <div class="foot">
+        <p onclick="location.reload(true)">©2018 Victor Robotics</p>
+        <div class="social">
+            <a href="https://twitter.com/Team1559">
+                <figure><img src="images/twitter.svg"></figure>
+            </a>
+            <a href="https://www.facebook.com/groups/341625795899706/">
+                <figure><img src="images/facebook.svg"></figure>
+            </a>
+            <a href="https://www.instagram.com/victor.robotics.html">
+                <figure><img src="images/instagram.svg"></figure>
+            </a>
+            <a href="https://www.youtube.com/user/VictorRobotics">
+                <figure><img src="images/youtube.svg"></figure>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

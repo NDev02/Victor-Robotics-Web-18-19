@@ -1,0 +1,36 @@
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.header {
+    background: linear-gradient(45deg, rgb(0, 2, 109), rgb(0, 45, 82) 70%);
+    padding: 0.5em;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    background: #eeeeee;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+
+.item img {
+    align-self: center;
+    margin: 0 auto;
+}
+
+.item-description {
+
+}
